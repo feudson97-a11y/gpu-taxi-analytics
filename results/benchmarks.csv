@@ -1,0 +1,9 @@
+step,cpu_s,gpu_s,speedup
+Load Parquet,0.318,0.115,2.8
+Clean + features,1.691,0.093,18.1
+Group by hour,0.1,0.011,9.2
+Group by pick-up zone,0.072,0.015,4.7
+Group by payment type,0.098,0.007,13.5
+Join + top 10 zones,0.077,0.019,4.2
+K-Means (5 clusters),1.993,0.39,5.1
+Random Forest (train),34.262,1.147,29.9
